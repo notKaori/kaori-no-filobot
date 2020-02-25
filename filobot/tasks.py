@@ -32,7 +32,7 @@ async def update_game():
         await asyncio.sleep(60.0)
 
 
-async def start_server():
+async def start_server(addr, port):
     async def event(request):
         try:
             data    = await request.post()
@@ -62,7 +62,7 @@ async def start_server():
 
     runner = web.AppRunner(app)
     await runner.setup()
-    site = web.TCPSite(runner, '108.170.28.204', 9544)
+    site = web.TCPSite(runner, addr, port)
     await site.start()
 
 
