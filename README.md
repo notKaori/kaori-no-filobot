@@ -17,6 +17,9 @@ As of today, Filo has relayed over 1,750 A-Rank hunts, 4,000 S-Ranks, and organi
 * Special fate tracking
 * Early spawn warnings for timed S-Ranks
 
+## Invite Link
+[Click here](https://discordapp.com/api/oauth2/authorize?client_id=574324356927193091&permissions=470281281&scope=bot) to invite Filo to your server and read the documentation below for information on how to set it up!
+
 
 # Documentation
 ```
